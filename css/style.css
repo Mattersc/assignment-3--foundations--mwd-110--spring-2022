@@ -53,10 +53,8 @@ footer{
 
 #midipic{
     border-radius: 120px;
-    max-width: 100%;
     height: 500px;
-    margin-left: auto;
-    margin-right: auto;
+    text-align: center;
 }
 
 #albumpic{
@@ -69,12 +67,12 @@ footer{
 }
 
 #bandmembers{
-    display: flex;
     font-size: 24px;
     position: relative;
     bottom: 325px;
     left: 0px;
     margin-bottom: -120px;
+    margin-left: -1180px;
 }
 
 #list{
