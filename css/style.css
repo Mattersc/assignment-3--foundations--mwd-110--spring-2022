@@ -38,11 +38,11 @@ div{
 
 #summary{
     font-family:'Nunito';
+    font-size: 18.72px;
     text-align: center;
     padding-left: 30px;
     padding-right: 30px;
-    font-size: 18.72px;
-
+    line-height: 25px;
 }
 
 #midipic{
