@@ -7,7 +7,7 @@ h1 {
   text-align: center;
   color:black;
   font-family:'Nunito', sans-serif;
-  background-color: grey;
+  background-color: lightgray;
   padding-bottom: 2px;
 }
 
@@ -37,22 +37,37 @@ div{
 }
 
 footer{
+    background-color: lightgray;
     text-align: center;
     padding-top: 15px;
     padding-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 #summary{
     font-family:'Nunito';
     font-size: 18.72px;
     text-align: center;
-    padding-left: 30px;
-    padding-right: 30px;
+    margin-left: auto;
+    margin-right: auto;
     line-height: 25px;
 }
 
 #midipic{
-    height: 500px;
-    width: auto;
     border-radius: 120px;
+    max-width: 100%;
+    height: 500px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#albumpic{
+    max-width: 100%;
+    height: 350px;
+    border-style: ridge;
+    border-radius: 60px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 10px;
 }
