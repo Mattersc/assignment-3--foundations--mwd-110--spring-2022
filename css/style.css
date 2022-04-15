@@ -16,3 +16,15 @@ h2 {
     font-family:'Nunito', sans-serif;
   }
 
+ul{
+    text-align: center;
+    padding: 10px;
+}
+
+li{
+    color:black;
+    font-family:'Nunito', sans-serif;
+    font-size: 16px;
+    padding: 5px;
+}
+
