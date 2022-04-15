@@ -3,10 +3,10 @@ body{
 }
 
 h1 {
-  font-size: 40px;
+  font-size: 48px;
   text-align: center;
   color:black;
-  font-family:'Nunito', sans-serif;
+
   background-color: lightgray;
   padding-bottom: 2px;
 }
@@ -27,7 +27,6 @@ ul{
 li{
     color:black;
     font-family:'Nunito', sans-serif;
-    font-size: 32px;
     padding: 5px;
 }
 
@@ -39,18 +38,16 @@ div{
 footer{
     background-color: lightgray;
     text-align: center;
-    padding-top: 15px;
+    padding-top: 8px;
     padding-bottom: 5px;
     margin-left: auto;
     margin-right: auto;
+    font-family: 'Lora', serif;
 }
 
 #summary{
     font-family:'Nunito';
     font-size: 18.72px;
-    text-align: center;
-    margin-left: auto;
-    margin-right: auto;
     line-height: 25px;
 }
 
@@ -65,9 +62,21 @@ footer{
 #albumpic{
     max-width: 100%;
     height: 350px;
-    border-style: ridge;
     border-radius: 60px;
     margin-left: auto;
     margin-right: auto;
     padding-top: 10px;
+}
+
+#bandmembers{
+    display: flex;
+    font-size: 24px;
+    position: relative;
+    bottom: 325px;
+    left: 0px;
+    margin-bottom: -120px;
+}
+
+#list{
+    font-size: 32px;
 }
